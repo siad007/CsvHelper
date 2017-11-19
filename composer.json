@@ -1,0 +1,28 @@
+{
+  "name": "siad007/csvhelper",
+  "description": "CSV Tools",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Siad Ardroumli",
+      "email": "siad.ardroumli@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Siad007\\Csv\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Siad007\\Csv\\Tests\\": "test"
+    }
+  }
+}
